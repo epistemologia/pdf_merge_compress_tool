@@ -1,0 +1,20 @@
+paths:
+  ghostscript: "D:/Program Files/gs/gs10.02.0/bin/gswin64c.exe"
+
+merge:
+  enabled: true
+  files:
+    - "rg_df.pdf"
+  output: "merged.pdf"
+
+compress:
+  enabled: true
+  output: "compressed.pdf"
+
+settings:
+  compression: "ebook"    # screen, ebook, printer, prepress
+
+pdfa:
+  enabled: true
+  output: "pdfa_output.pdf"
+  profile: "PDF/A-2b"

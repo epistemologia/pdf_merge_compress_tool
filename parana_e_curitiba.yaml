@@ -1,0 +1,21 @@
+caminhos:
+  ghostscript: "D:/Program Files/gs/gs10.02.0/bin/gswin64c.exe"
+
+juntar:
+  ativado: true
+  arquivos:
+    - Lista_de_governadores_do_Paraná.pdf
+    - Categoria_Estações_de_rádio_de_Curitiba.pdf
+  saida: "_juncao.pdf"
+
+compactar:
+  ativado: true
+  saida: "__compactado.pdf"
+
+parametros:
+  compactacao: "ebook"    # screen, ebook, printer, prepress
+
+pdfa:
+  ativado: true
+  saida: "___parana_e_curitiba_pdf_a.pdf"
+  perfil: "PDF/A-2b"

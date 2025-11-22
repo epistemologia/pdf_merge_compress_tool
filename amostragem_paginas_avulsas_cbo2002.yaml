@@ -1,0 +1,43 @@
+caminhos:
+  ghostscript: "D:/Program Files/gs/gs10.02.0/bin/gswin64c.exe"
+
+juntar:
+  ativado: true
+  arquivos:
+    - arquivo: "CBO2002_LISTA.PDF"
+      pagina_inicial: 1
+      pagina_final: 10
+
+    - arquivo: "CBO2002_LISTA.PDF"
+      pagina_inicial: 100
+      pagina_final: 100
+
+    - arquivo: "CBO2002_LISTA.PDF"
+      pagina_inicial: 200
+      pagina_final: 200
+
+    - arquivo: "CBO2002_LISTA.PDF"
+      pagina_inicial: 300
+      pagina_final: 300
+
+    - arquivo: "CBO2002_LISTA.PDF"
+      pagina_inicial: 400
+      pagina_final: 400
+
+    - arquivo: "CBO2002_LISTA.PDF"
+      pagina_inicial: 430
+      pagina_final: 431
+
+  saida: "_juncao.pdf"
+
+compactar:
+  ativado: true
+  saida: "__compactado.pdf"
+
+parametros:
+  compactacao: "ebook"    # screen, ebook, printer, prepress
+
+pdfa:
+  ativado: true
+  saida: "___amostragem_paginas_avulsas_CBO2002_pdf_a.pdf"
+  perfil: "PDF/A-2b"

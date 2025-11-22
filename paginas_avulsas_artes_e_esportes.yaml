@@ -1,0 +1,29 @@
+caminhos:
+  ghostscript: "D:/Program Files/gs/gs10.02.0/bin/gswin64c.exe"
+
+juntar:
+  ativado: true
+  arquivos:
+    - arquivo: "Desporto.pdf"
+      pagina_inicial: 1
+      pagina_final: 1
+
+    - arquivo: "Desporto.pdf"
+      pagina_inicial: 5
+      pagina_final: 5
+
+    - arquivo: "Gênero_musical.pdf"
+
+  saida: "_juncao.pdf"
+
+compactar:
+  ativado: true
+  saida: "__compactado.pdf"
+
+parametros:
+  compactacao: "ebook"    # screen, ebook, printer, prepress
+
+pdfa:
+  ativado: true
+  saida: "___paginas_avulsas_artes_e_esportes_pdf_a.pdf"
+  perfil: "PDF/A-2b"
